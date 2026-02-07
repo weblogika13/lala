@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const data = await response.json();
 
 
-        const.log(data);
+        console.log(data);
         outputText.textContent = data.responseData.translateText
 
     }
